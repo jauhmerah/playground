@@ -533,7 +533,7 @@ CREATE TABLE `tbl_user` (
 -- Dumping data for table `tbl_user`
 --
 
-INSERT INTO `tbl_user` (`id`, `email`, `auth_key`, `password_hash`, `password_reset_token`, `name`, `country`, `avatar`, `is_disabled`, `is_deleted`, `last_login_at`, `created_at`, `updated_at`) VALUES
+INSERT INTO `tbl_user` (`id`, `email`, `auth_key`, `password_hash`, `password_reset_token`, `name`, `country`, `avatar`, `is_disabled`, `is_deleted`, `last_login_at`, `created_at`, `updated_at` , `created_by` , `updated_by`) VALUES
 (1, 'super@codetitan.com.my', 'nBifXaA1Z01bTB5SxllcY0zv5rnv9kdQ', '$2y$13$diNlvsMi6jnu8mFAXkmrfu97AaB68y1ccvb6p3ih3qLxAMCskA3Nu', NULL, 'Super Admin', NULL, NULL, 0, 0, 1460027443, 1459491456, 1478051883, NULL, NULL),
 (2, 'admin@codetitan.com.my', 'GNK6GJxko8GA7jYR0K9FlRb9DMWQMkxI', '$2y$13$OCqw6GwEKmvQ4SN2F5v6CeZBeDhgsr5rzucsOeSLKrwxVPi7MsSqK', NULL, 'Admin', NULL, NULL, 0, 0, 1473903534, 1459588387, 1478052051, NULL, NULL),
 (3, 'user@codetitan.com.my', '5gKBwfHHjgXxJ0lxrOjRe15aC11D6Jj8', '$2y$13$upwgeIy1FRRMSpUkhOyjRetOYrQ3lFD5NrP0dMZnr1xHEWtz3/tta', NULL, 'User', 'my', '3.jpg', 0, 0, NULL, 1471600018, 1478052094, NULL, NULL);
